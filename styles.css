@@ -1,0 +1,122 @@
+/* Configuración del body */
+body {
+    font-family: 'Be Vietnam Pro', sans-serif; /* Fuente principal */
+    background-image: url('background.svg'); /* Imagen de fondo */
+    background-size: cover; /* La imagen de fondo cubre toda la pantalla */
+    background-repeat: no-repeat; /* No repetir la imagen de fondo */
+    background-position: center; /* Centrar la imagen de fondo */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Posicionamiento del logo en la esquina superior izquierda */
+header .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Estilos de #main-content para centrar verticalmente el contenido */
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Estilo del contenedor principal */
+#contenedor {
+    background-color: rgba(255, 255, 255, 0.15); /* Fondo semi-transparente */
+    border-radius: 20px;
+    width: 746px;
+    height: 546px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Espaciado entre las secciones internas */
+    align-items: center;
+    margin-top: 72px; /* Separación entre la descripción y el contenedor */
+}
+
+/* Estilos de tamaño y espaciado para el título */
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 64px; /* Espacio entre el logo y el título */
+    margin-bottom: 16px; /* Espacio entre el título y la descripción */
+    width: 60%;
+}
+
+/* Estilos para la descripción */
+#descripcion {
+    font-size: 2rem;
+    color: white;
+    width: 50%;
+    margin-top: 16px; /* Espacio entre el título y la descripción */
+}
+
+/* Estilos para las secciones horizontales */
+.seccion_horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 18px; /* Espaciado entre los inputs */
+}
+
+/* Estilo para campos individuales */
+.campo {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    align-items: flex-start; /* Alinea etiquetas a la izquierda */
+}
+
+/* Estilo de las etiquetas de cada campo */
+.text {
+    font-size: 0.875rem;
+    color: white;
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el input */
+}
+
+/* Estilos para inputs, select y button */
+.campo input, .campo select, #button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 24px 18px; /* Padding consistente */
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box; /* Mantiene el padding dentro del ancho del elemento */
+    border: none; /* Elimina el borde */
+}
+
+/* Estilos para el textarea grande en la tercera sección */
+#textbox_big {
+    width: 746px;
+    height: 144px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 24px 18px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    resize: none; /* Evita cambiar el tamaño del textarea */
+    overflow: auto; /* Permite el scroll si el texto supera el área visible */
+    text-align: start; /* Alineación del texto a la izquierda */
+    border: none; /* Elimina el borde */
+}
+
+/* Estilos para el botón en la tercera sección */
+#button {
+    width: 746px;
+    height: 80px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #4036A9;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 24px; /* Espacio para separarlo del input */
+}

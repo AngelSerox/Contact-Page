@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="switchToggle.js"></script>
+</head>
+<body>
+    <header>
+        <img src="Logo.svg" class="logo">
+    </header>
+    <div id="main-content">
+        <h1>Interested in our business pricing?</h1>
+        <p id="descripcion">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+        <div id="contenedor">
+            <div id="primera_seccion" class="seccion_horizontal">
+                <div class="campo">
+                    <p class="text">Name</p>
+                    <input type="text" placeholder="Ethan Johnson">
+                </div>
+                <div class="campo">
+                    <p class="text">Company Email</p>
+                    <input type="text" placeholder="ethan@johnson.com">
+                </div>
+            </div>
+            <div id="segunda_seccion" class="seccion_horizontal">
+                <div class="campo">
+                    <p class="text">Company Size</p>
+                    <select>
+                        <option>50-100 employees</option>
+                        <option>101-500 employees</option>
+                        <option>500+ employees</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <p class="text">Subject</p>
+                    <select>
+                        <option>Building Landing pages</option>
+                        <option>SEO Optimization</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+            </div>
+            <div id="tercera_seccion" class="seccion_vertical">
+                <p class="text">Message</p>
+                <textarea id="textbox_big" placeholder="50-100 employees"></textarea>
+                <button id="button">Contact Sales</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
