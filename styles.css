@@ -37,7 +37,7 @@ header .logo {
     flex-direction: column;
     gap: 24px; /* Espaciado entre las secciones internas */
     align-items: center;
-    margin-top: 72px; /* Separación entre la descripción y el contenedor */
+    margin-top: 40px; /* Separación entre la descripción y el contenedor */
 }
 
 /* Estilos de tamaño y espaciado para el título */
@@ -46,7 +46,7 @@ h1 {
     font-weight: bold;
     color: white;
     margin-top: 64px; /* Espacio entre el logo y el título */
-    margin-bottom: 16px; /* Espacio entre el título y la descripción */
+    margin-bottom: 5px; /* Espacio entre el título y la descripción */
     width: 60%;
 }
 
